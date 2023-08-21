@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ucrania</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/inter.css">
+    <link rel="manifest" href="manifest.json">
+    <style>
+        body {
+            max-width: 100vw;
+            overflow: hidden;
+        }
+
+        .slide {
+            width: 100vw;
+            height: 100vh;
+            position: relative;
+            color: black;
+            font-size: 10vh;
+        }
+
+        .slide>* {
+            width: fit-content;
+        }
+
+        .slide h1,
+        .slide ul,
+        .slide li {
+            position: relative;
+        }
+
+        h1 {
+            padding-bottom: 3.5vw;
+            height: auto;
+        }
+
+        body>a {
+            display: block;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .transparent-to-white-overlay {
+            content: ' ';
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            background-image: linear-gradient(to right, white, transparent);
+            z-index: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="#section1">
+        <section class="slide">
+            <img src="assets/ukraine_flag_brush_stroke.png" alt=""
+                style="position: absolute; width: 75vw; inset: 0; margin: auto; ">
+            <h1 style="position: absolute; font-size: 25vh; left: 5%; top: 25%">Ucrania</h1>
+        </section>
+    </a>
+
+    <a href="#section2">
+        <section id="section1" class="slide">
+            <img src="assets/vecinos.svg" alt="" style="width: 75vw; position: absolute; inset: 0; margin: auto;">
+            <div style="position: absolute; top: 5%; right: 5%; font-size: 15vh;font-weight: 600;">RUSIA</div>
+            <div style="position: absolute; top: 5%; left: 23.5%; font-size: 7.5vh;font-weight: 600;">BIELORRUSIA</div>
+            <div style="position: absolute; top: 20%; left: 5%; font-size: 7.5vh;font-weight: 600;">POLONIA</div>
+            <div style="position: absolute; top: 44%; left: 5%; font-size: 4.5vh; font-weight: 550;">SLOVAKIA</div>
+            <div style="position: absolute; top: 54%; left: 5%; font-size: 4.5vh; font-weight: 550;">HUNGRÍA</div>
+            <div style="position: absolute; top: 60%; left: 34%; font-size: 4.5vh; font-weight: 550;">MOLDOVA</div>
+            <div style="position: absolute; bottom: 21%; left: 17%; font-size: 7.5vh;  font-weight: 600;">RUMANIA</div>
+        </section>
+    </a>
+
+    <a href="#section3">
+        <section id="section2" class="slide">
+            <img src="assets/ciudades.svg" alt="" style="width: 75vw; position: absolute; inset: 0; margin: auto;">
+        </section>
+    </a>
+
+    <a href="#section4">
+        <section id="section3" class="slide" style="padding: 5vh 5vw;">
+            <div style="position: absolute; right: 0; top: 0; z-index: 0; height: 100%;">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/f/fb/Лавра.jpg" alt=""
+                    style="height: 100vh; object-fit: contain;">
+                <div class="transparent-to-white-overlay"></div>
+            </div>
+            <h1 style="font-size: 16vh;">Kyiv</h1>
+            <ul>
+                <li>Capital de Ucrania</li>
+                <li>2&thinsp;954&thinsp;300 habitantes</li>
+                <li>Approx. 15 siglos de edad</li>
+            </ul>
+        </section>
+    </a>
+
+    <a href="#section5">
+        <section id="section4" class="slide" style="padding: 5vh 5vw;">
+            <div style="position: absolute; right: 0; top: 0; z-index: 0; height: 100%;">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/2/2c/Будинок_держпромисловості,_Харків_DJI_0057.jpg"
+                    alt="" style="height: 100vh; object-fit: contain;">
+                <div class="transparent-to-white-overlay"></div>
+            </div>
+            <h1 style="font-size: 16vh;">Kharkiv</h1>
+            <ul>
+                <li>1&thinsp;433&thinsp;886 habitantes</li>
+                <li>Fue capital de RSS de Ucrania</li>
+            </ul>
+        </section>
+    </a>
+
+    <a href="#section6">
+        <section id="section5" class="slide" style="padding: 5vh 5vw;">
+            <div style="position: absolute; right: 0; top: 0; z-index: 0; height: 100%;">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/f/fe/Russov_House_in_Odessa-2020.png" alt=""
+                    style="height: 100vh; object-fit: contain;">
+                <div class="transparent-to-white-overlay"></div>
+            </div>
+            <h1 style="font-size: 16vh;">Odesa</h1>
+            <ul>
+                <li>1&thinsp;010&thinsp;537 habitantes</li>
+                <li>Ciudad-puerto</li>
+            </ul>
+        </section>
+    </a>
+    <a href="#section7">
+        <section id="section6" class="slide" style="">
+            <img src="assets/historia.svg" alt="" style="width: 90vw; position: absolute; inset: 0; margin: auto;">
+        </section>
+    </a>
+    <a href="#">
+        <section id="section7" class="slide" style="padding: 5vh 5vw;">
+            <div style="position: absolute; right: 0; top: 0; z-index: 0; height: 100%;">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Volodymyr_Zelenskyy_voted_in_parliamentary_elections_%282019-07-21%29_05.jpg"
+                    alt="" style="height: 100vh; object-fit: contain;">
+                <div class="transparent-to-white-overlay"></div>
+            </div>
+            <h1 style="font-size: 16vh;">Politica</h1>
+            <ul>
+                <li>republica semipresidencial</li>
+                <li>ultimas elecciones en 2019</li>
+                <li style=" line-height: 100%; text-wrap: balance;"><span>partido del presidente con mayoridad
+                        parlamentaria</span></li>
+            </ul>
+        </section>
+    </a>
+
+</body>
+
+</html>

@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paises</title>
+    <style>
+        @font-face {
+            font-family: 'Lilita';
+            src: url(fonts/Lilita/LilitaOne-Regular.ttf);
+
+        }
+        @font-face {
+            font-family:'Lumanosimo' ;
+            src: url(fonts/Lumanosimo/);
+        }
+        @font-face {
+            font-family:'Bangers';
+            src: url(fonts/Bangers/Bangers-Regular.ttf);
+        }
+        @font-face {
+            font-family:'CarterOne' ;
+            src: url(fonts/Carter_One/CarterOne-Regular.ttf);
+        }
+        @font-face {
+            font-family: 'Chela_One' ;
+            src: url(fonts/Chela_One/);
+        }
+        @font-face {
+            font-family:'Chewy' ;
+            src: url(fonts/Chewy/Chewy-Regular.ttf);
+        }
+        @font-face {
+            font-family:'Courgette' ;
+            src: url(fonts/Courgette/Courgette-Regular.ttf);
+        }
+        @font-face {
+            font-family:'Luckiest' ;
+            src: url(fonts/Luckiest_Guy/LuckiestGuy-Regular.ttf);
+        }
+        @font-face {
+            font-family: 'Monoton';
+            src: url(fonts/Monoton/Monoton-Regular.ttf);
+        }
+        @font-face {
+            font-family:'Pacifico';
+            src: url(fonts/Pacifico/Pacifico-Regular.ttf);
+        }
+        @font-face {
+            font-family: 'Permanent';
+            src: url(fonts/Permanent_Marker/PermanentMarker-Regular.ttf);
+        }
+        @font-face {
+            font-family:'Rubik' ;
+            src: url(fonts/Rubik_Dirt/RubikDirt-Regular.ttf);
+        }
+
+        *{
+            box-sizing: border-box;
+
+        }
+        body{
+           
+            background: linear-gradient(45deg, #031927, #f5f5f5);
+            margin: 0rem;
+        }
+#fotofigure{
+    margin:0;
+    text-align: center;
+    display: none;
+}
+#mapafigure{
+    margin:0;
+    text-align: center;
+}
+#mapamundi{
+    max-width: 100vw;
+    width: 80vw;
+    height: 80vh;
+    margin:0rem;
+}
+
+
+.main {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-right: auto;
+   background-color: red;
+    margin-top: 0rem;
+
+}
+#fotomanos{
+    background-image: url(img/stockvault-handprints-heart-indicates-valentines-day-and-childhood231566.jpg);
+    max-width: 100vw;
+    width: 80vw;
+    height: 100vh;
+    margin:0rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: cover; */
+
+}
+.textofoto{
+position: absolute;
+text-align: center;
+top: 5rem;
+left: 15rem;
+background-color: #ffffff;
+display: block;
+opacity: .9;
+padding: 0 1rem 1rem 1rem;
+max-width: 20rem;
+max-height: 20rem;
+min-width: 20rem;
+min-height: 10rem;
+}
+.titulo{
+    font-family: 'Permanent',sans-serif;
+}
+.titulin{
+    font-family: 'Rubik',sans-serif;
+    font-weight: lighter;
+    color: crimson;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+.map {
+    background: url(img/mapamarcaoPNG.PNG);
+    height: 100vh;
+    width: 100vw;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+   margin: 0px;
+     margin: auto;
+     padding: 0px;
+  }
+
+
+  .caracas {
+
+    background-color: black; /* So we can see where the pixel is */
+  height: 10px;
+  position: absolute;
+  width: 10px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.caracas:after{
+  background-color: white; /* Decorative, this could be an image too */
+  content: '';
+  display: block;
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  border: 4px solid black;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.map>div{
+  display: inline-block;
+  background-color: black; /* So we can see where the pixel is */
+  height: 10px;
+  position: relative;
+  width: 10px;
+  border-radius: 50%;
+  z-index: 1;
+
+}
+.map>div::after{
+  background-color: white; /* Decorative, this could be an image too */
+  content: '';
+  display: block;
+  position: relative;
+  height: 5px;
+  width: 5px;
+  border: 4px solid black;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.bubble {
+    margin: 50px;
+    padding: 20px;
+    position: absolute;
+    border-radius: 8px 8px 8px 8px;
+    width: 200px;
+}
+.bubble:after{
+    content: "aawdjnawdawdadadawdasd";
+    position: absolute;
+   top: 100%;
+   left: 20px;
+   border-top: 20px solid red;
+   border-top-color: inherit;
+   border-left: 20px solid transparent;
+   border-right: 20px solid transparent;
+   display: inline;
+}
+
+.containermap{
+  width: 100%;
+  margin: auto;
+}
+    </style>
+
+
+ 
+
+
+</head>
+<body>
+ <div class="main">
+    <figure id="fotofigure">
+      <img src="img/stockvault-handprints-heart-indicates-valentines-day-and-childhood231566.jpg" alt="Corazon de manos" id="fotomanos">  
+    </figure>
+
+<div class="textofoto">
+<h2 class="titulo">Escuelas Taller Gij&oacute;n Acompa&ntilde;a</h2>
+
+<h3 class="titulin">
+Proyecto "Naciones y culturas"
+</h3>
+
+</div>
+ </div>
+
+<hr>
+
+
+
+<!-- 
+  <div id="container" style="position: relative;">
+    <figure id="mapafigure">
+    <img src="img/mapamarcao.png" alt="Un pañuelo" id="mapamundi">  
+  </figure>
+  </div> -->
+
+
+  <div class="containermap">
+
+ 
+  <div class="map">
+    <div class="caracas" style="top: 57%; left: 30%;" onmouseover="showBubble('caracasover')" onmouseout="hideBubble('caracasover')"></div>
+      <div class="bubble" style="top:550px;left:550px;background: red; border-color: red;display: none; z-index:3;" id="caracasover">Texto a mostrar en el bocadillo o diálogo</div>
+    <div class="buenos_aires" style="top: 84%; left: 31.7%;" onmouseover="buenosF()"></div>
+    <div class="managua" style="top: 55.5%; left: 23.2%;" onmouseover="managuaF()"></div>
+    <div class="kiev" style="top: 31.5%; left: 55%;" onmouseover="kievF()"></div>
+    <div class="bucarest" style="top: 35.2%; left: 53%;" onmouseover="bucarestF()"></div>
+    <div class="kabul" style="top: 42%; left: 64.5%;" onmouseover="kabulF()"></div>
+    <div class="india" style="top: 48%; left: 66%;" onmouseover="indiaF()"></div>
+    <div class="aauin" style="top: 47.5%; left: 40%;" onmouseover="aauinF()"></div>
+   
+
+
+    
+  </div> 
+</div>
+
+
+  <script>
+
+function showBubble(id) {
+  var bubble = document.getElementById(id);
+  bubble.style.display = "block";
+  bubble.style.zIndex = "11";
+
+}
+
+function hideBubble(id) {
+  var bubble = document.getElementById(id);
+  bubble.style.display = "none";
+}
+
+   function caracasF() {
+  caracasover.display="block";
+  document.getElementById("caracasover").style.zIndex = "11";
+
+  }
+  function buenosF() {
+    
+  }
+  function managuaF() {
+    
+  }
+  function kievF() {
+    
+  }
+  function bucarestF() {
+    
+  }
+  function kabulF() {
+    
+  }
+  function indiaF() {
+    
+  }
+  function aauinF() {
+    
+  }
+  </script>
+
+</body>
+</html>

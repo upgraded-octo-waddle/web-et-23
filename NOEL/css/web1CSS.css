@@ -1,0 +1,211 @@
+* {
+
+    box-sizing: border-box;
+    margin: 0em;
+    
+}
+
+body {
+
+    width: 100%;
+    height: auto;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/manitas.jpg); 
+
+}
+
+.banderas {
+
+    width: 25%;
+    height: auto;
+    float: left;
+    
+}
+
+/* .ven {
+
+    width: 17em;
+    height: 10em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(bandera\ venezuela.png);
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+
+} */
+
+.arg:hover, 
+.nic:hover, 
+.ucr:hover, 
+.git:hover, 
+.rum:hover, 
+.ven:hover, 
+.sah:hover, 
+.afg:hover {
+
+    transition: 1s;
+    transform: scale(1.1);
+    cursor: pointer;
+
+}
+
+.nic {
+
+    width: 17em;
+    height: 10em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/bandera\ nicaragua.png);
+    margin-bottom: 0.5em;
+    
+}
+
+/*.ucr {
+
+    width: 17em;
+    height: 10em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(bandera\ ucrania.png);
+    margin-bottom: 0.5em;
+    margin-top: 0.5em; 
+    
+}*/
+
+img {
+
+    height: 10em;
+    width: 17em;
+    margin-top: 0.5em;
+    margin-bottom: 0.3em;
+
+}
+
+.git {
+
+    width: 17em;
+    height: 10.4em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/bandera_gitana_250.jpg);
+    margin-bottom: 0.5em;
+    
+}
+
+.rum {
+
+    width: 17em;
+    height: 10em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/bandera\ rumania.png);
+    margin-bottom: 0.5em;
+
+}
+
+.arg {
+
+    width: 17em;
+    height: 10em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/bandera\ argentina.jpg);
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+
+}
+
+.sah {
+
+    width: 17em;
+    height: 10em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/bandera\ sahara.png);
+    margin-bottom: 0.5em;
+
+}
+
+.afg {
+
+    width: 17em;
+    height: 10em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/bandera\ afganistan.png);
+    margin-bottom: 0.5em;
+
+}
+
+
+footer {
+
+    width: 100%;
+    height: 17em;
+    background-color: rgba(0, 0, 0, 0.37);
+    clear: both;
+
+}
+
+.caja3 {
+
+    width: 33.33%;
+    float: left;
+
+}
+
+.izq {
+    
+    width: 10em;
+    height: 10em;
+    background-image: url(../img/escuelaTaller.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    margin-top: 4em;
+
+}
+
+p {
+
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+
+}
+
+.abajo {
+
+    margin-top: 4em;
+
+}
+
+.der {
+
+    width: 10em;
+    height: 10em;
+    background-image: url(../img/HTML5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    margin-top: 4em;
+
+}
+
+.flota {
+
+    float: right;
+
+}

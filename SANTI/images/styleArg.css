@@ -1,0 +1,262 @@
+* {
+    box-sizing: border-box;
+    margin: 0em;
+    padding: 0em;
+}
+
+html {
+    height: auto;
+}
+
+header {
+    height: 100vh;
+    width: 100%;
+    background-image: url(/Argentina/images/portadaArg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 40px 1px black;
+}
+
+.caja1 {
+    width: 100%;
+    height: 100%;
+    float: left;
+    margin-bottom: 1em;
+}
+
+.caja4 {
+    width: 24%;
+    height: 100%;
+    float: left;
+    margin-bottom: 1em;
+}
+
+.caja2 {
+    width: 50%;
+    height: 100%;
+    float: left;
+    margin-bottom: 1em;
+}
+
+.caja75 {
+    width: 35%;
+    height: 30vh;
+    float: left;
+    margin-bottom: 1em;
+    position: absolute;
+    top: 12vh;
+    left: 2%;
+    z-index: 1;
+    border-radius: 2em;
+    background-color: rgba(255, 255, 255, 0.473);
+}
+
+/*----------------------------FotoPortada-----------------------------------*/
+.fondoAzul {
+    background-color: rgb(43, 160, 255);
+    color: white;
+}
+
+/*---------------------REPUBLICA ARGENTINA--------------------------------*/
+.titulo {
+    text-justify: newspaper;
+    text-align: center;
+    padding: 1em;
+}
+
+#republica {
+    text-transform: uppercase;
+    font-size: 3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 6em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*#textoIntro {}*/
+
+/*-----------------------------FIN PORTADA--------------------------------------*/
+
+/*----------------------------CARRUSEL---------------------------*/
+.carrusel {
+    overflow: hidden;
+    position: relative;
+    height: 80vh;
+    width: 100%;
+    margin: auto;
+    background-color: aqua;
+    box-shadow: 0px 0px 40px 1px rgba(0, 0, 0, 0.322);
+}
+
+.cajas {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: transform 1s ease-in-out;
+}
+
+.cara {
+    background-color: white;
+    background-image: url(images/bandera.jpeg);
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+.apartados {
+    background-color: rgb(255, 255, 255);
+    margin: 0em;
+}
+
+/*---------------------------------CUERPO-------------------------------------*/
+
+
+aside {
+    box-shadow: 0px 0px 40px 1px rgba(0, 0, 0, 0.322);
+}
+
+h2 {
+    position: relative;
+    rotate: -90deg;
+    top: 30vh;
+    font-size: 6em;
+}
+
+.info {
+    width: 80%;
+    margin: auto;
+    font-size: 2.5em;
+}
+
+.pachuru {
+    padding: 3em;
+    padding-top: 5em;
+}
+
+.galeriaDerch {
+    display: flex;
+    flex-flow: column;
+}
+
+.fotosDerch {
+    width: 90%;
+    margin: auto;
+    height: 30vh;
+}
+
+/*---------------GEOGRAFGIA-------------*/
+
+.cajaGeo {
+    width: 75%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.geo {
+    width: 40%;
+    height: 40%;
+}
+
+.ciudades {
+    width: 100%;
+    height: 100%;
+}
+
+.oculto {
+    display: none;
+    width: 40%;
+    height: 40vh;
+    overflow: hidden;
+}
+
+.textoOcu {
+    text-align: justify;
+    font-size: 1.5em;
+    padding-top: 1em;
+    padding: 1em;
+    font-size: large;
+}
+
+.zonas {
+    width: 200%;
+    height: 200%;
+}
+
+.ocultaFoto {
+    padding: 1em;
+}
+
+#fotoBsas {
+    height: 100%;
+}
+
+#ocultoTexto1 {
+    overflow: visible;
+}
+
+
+/*--------------------------BOTONES-------------------------------*/
+
+.botonera {
+    margin-top: 2em;
+    clear: both;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap
+}
+
+.boton {
+    width: 15%;
+    height: 20vh;
+    font-size: 2em;
+    font-weight: 700;
+    background-color: #2ba0ff00;
+    border: none;
+    border-radius: 2em;
+}
+
+.flechas {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+
+/*---------------------------FOOOTERR-----------------------------------------*/
+
+footer {
+    clear: both;
+    display: flex;
+    color: #000000;
+    background-color: #2ba0ff;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0 0 10px 10px #2ba0ff;
+    height: 21vh;
+    font-size: 1.3em;
+    line-height: 2em;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 215vh;
+}
+
+footer section a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.dire {
+    line-height: normal;
+    font-size: 0.7em;
+    font-style: italic;
+}
+
+.f1 img {
+    width: 3em;
+}

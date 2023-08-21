@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'Andika';
+    src: url();
+}
+
+h1 {
+    color: rgb(0 0 0 / 68%);
+    text-align: center;
+    line-height: 22em;
+    font-size: 3em;
+}
+
+header {
+    background-image: url(../img/globe-ge11e8802f_1280.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 45em;
+
+}
+
+body {
+    background-color: #005aff14;
+}
+
+.caja2 {
+    width: 50%;
+    float: left;
+}
+
+.caja222 {
+    width: 50%;
+    float: left;
+    margin-bottom: 3em;
+}
+
+.caja22 {
+    width: 50%;
+    float: left;
+    clear: both;
+}
+
+img {
+    width: 79%;
+    height: 24em;
+    padding-left: 8em;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Andika';
+    color: #4a3e3e;
+    font-size: 3em;
+}
+
+div {
+    margin-top: 5em;
+}
+
+footer {
+    height: auto;
+    clear: both;
+    background-color: #81a4e326;
+    background-image: url(cooperation-g913e5965b_1280.png);
+    background-size: 5em;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#imgfot {
+    width: 8em;
+    height: 8em;
+    float: right;
+}
+
+main {
+    margin-bottom: 10rem;
+}
+
+#ultimopais {
+    text-align: center;
+    margin-top: 5em;
+}
+
+p {
+    font-weight: bold;
+    text-align: center;
+}

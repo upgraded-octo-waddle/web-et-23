@@ -19,7 +19,7 @@ figuras.forEach((figura) => {
 
 // funciones paises
 //argentina
-document.querySelector("#arg").ondblclick = function () { window.location.href = "https://www.google.com"; }
+document.querySelector("#arg").ondblclick = function () { window.location.href = "SANTI/index.html"; }
 document.querySelector("#arg").onclick = function (e) {
     e.preventDefault();
     document.querySelector(".AR").classList.toggle("pathOpen");
@@ -31,7 +31,7 @@ document.querySelector("#nic").onclick = function (e) {
     document.querySelector(".NI").classList.toggle("pathOpen");
 };
 //rumania
-document.querySelector("#rom").ondblclick = function () { window.location.href = "https://www.google.com"; }
+document.querySelector("#rom").ondblclick = function () { window.location.href = "GABRIEL/index.html"; }
 document.querySelector("#rom").onclick = function (e) {
     e.preventDefault();
     document.querySelector(".RO").classList.toggle("pathOpen");
